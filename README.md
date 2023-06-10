@@ -1,3 +1,6 @@
+
+[Neomantra's](https://neomantra.com) fork of the original [ColorSlider project by Sachin Patel](https://github.com/gizmosachin/ColorSlider).
+
 <p align="center">
 <img src="./ColorSlider.gif" width="65%">
 </p>
@@ -6,7 +9,7 @@
 
 ColorSlider is an iOS color picker with live preview written in [Swift](https://developer.apple.com/swift/).
 
-[![Build Status](https://travis-ci.org/gizmosachin/ColorSlider.svg?branch=master)](https://travis-ci.org/gizmosachin/ColorSlider) ![Pod Version](https://img.shields.io/cocoapods/v/ColorSlider.svg) [![Swift Version](https://img.shields.io/badge/language-swift%205.0-brightgreen.svg)](https://developer.apple.com/swift) [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](LICENSE)
+[![Build Status](https://travis-ci.org/neomantra/ColorSlider.svg?branch=master)](https://travis-ci.org/neomantra/ColorSlider) ![Pod Version](https://img.shields.io/cocoapods/v/ColorSlider.svg) [![Swift Version](https://img.shields.io/badge/language-swift%205.0-brightgreen.svg)](https://developer.apple.com/swift) [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](LICENSE)
 
 |           | Features                                 |
 | :-------: | :--------------------------------------- |
@@ -87,6 +90,8 @@ ColorSlider is fully documented [here](https://gizmosachin.github.io/ColorSlider
 
 ### [CocoaPods](https://cocoapods.org/)
 
+**This Neomantra fork does NOT publish to CocoaPods.** 
+
 ``` ruby
 platform :ios, '9.0'
 pod 'ColorSlider', '~> 4.4'
@@ -95,15 +100,16 @@ pod 'ColorSlider', '~> 4.4'
 ### [Carthage](https://github.com/Carthage/Carthage)
 
 ``` ruby
-github "gizmosachin/ColorSlider" >= 4.4
+github "neomantra/ColorSlider" >= 4.5
 ```
 
 ## Version Compatibility
 
 | Swift Version | ColorSlider Version |
 | ------------- | ------------------- |
-| 5.0           | master              |
-| 4.2           | 4.3                 |
+| `5.8`         | neomantra `4.5` |
+| `5.0`         | gizmosachin `master` |
+| `4.2`         | gizmosachin `4.3` |
 
 ## Demo
 
